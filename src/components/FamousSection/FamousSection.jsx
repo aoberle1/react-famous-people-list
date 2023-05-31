@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './FamousSection.css';
 import axios from 'axios';
+import FamousPersonList from '../FamousPersonList/FamousPersonList'
 
 function FamousSection() {
   let [famousPersonName, setPersonName] = useState('');
